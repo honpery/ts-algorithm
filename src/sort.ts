@@ -39,7 +39,7 @@ export class Sort {
 				result.push(left[0] < right[0] ? left.shift() : right.shift());
 			}
 
-			return result.concat(left).concat(right);
+			return [...result, ...left, ...right];
 		}
 
 		const mid = arr.length >> 1;
