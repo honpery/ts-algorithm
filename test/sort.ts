@@ -17,4 +17,8 @@ describe('sort test.', () => {
 	it('merge sort.', () => {
 		expect(Sort.merge(getTarget())).deep.equal(result);
 	})
+
+	it('bubble sort.', () => {
+		expect(Sort.bubble(getTarget())).deep.equal(result);
+	})
 });
