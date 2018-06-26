@@ -1,3 +1,6 @@
 {
-    "extends": "tslint-zzz"
+    "extends": "tslint-zzz",
+    "rules": [
+        "no-bitwise": false
+    ]
 }
