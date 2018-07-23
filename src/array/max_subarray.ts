@@ -1,5 +1,6 @@
 /**
  * 最大子数组
+ * 时间复杂度：O(nlgn)
  */
 export function MaxSubarray(arr = [], low = 0, high = arr.length - 1): { low: number, high: number, sum: number } {
 	if (low === high) return arr[low];

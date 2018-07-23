@@ -4,7 +4,7 @@
 export class Sort {
 
 	/**
-	 * 插入排序 
+	 * 插入排序 原址排序
 	 * 时间复杂度：O(n^2)
 	 */
 	static insertion(arr = []) {
@@ -26,7 +26,7 @@ export class Sort {
 	}
 
 	/**
-	 * 归并排序 
+	 * 归并排序 非原址排序
 	 * 时间复杂度：O(nlgn)
 	 */
 	static merge(arr = []) {
@@ -48,7 +48,7 @@ export class Sort {
 	}
 
 	/**
-	 * 冒泡排序 
+	 * 冒泡排序 原址排序
 	 * 时间复杂度：O(n^2)
 	 */
 	static bubble(arr = []) {
@@ -61,6 +61,14 @@ export class Sort {
 		}
 
 		return arr;
+	}
+
+	/**
+	 * 堆排序 原址排序
+	 * 时间复杂度 O(nlgn)
+	 */
+	static heap(arr = []) {
+
 	}
 
 }
